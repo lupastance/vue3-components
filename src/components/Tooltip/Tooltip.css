@@ -1,0 +1,30 @@
+p {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 4px;
+
+    cursor: help;
+    padding: 10px 0;
+}
+
+.tooltip-container {
+    position: relative;
+}
+
+.tooltip-text {
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+    max-width: 200px;
+    padding: 12px;
+
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    
+    pointer-events: none;
+}
+
+.tooltip-hide {
+    display: none;
+}

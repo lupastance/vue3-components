@@ -1,0 +1,33 @@
+button {
+    border: none;
+    border-radius: 10px;
+
+    padding: 12px;
+    min-width: 150px;
+
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    
+    transition: all 0.2s ease-in-out;
+}
+
+    button:hover {
+        background-color: whitesmoke;
+        color: black;
+        
+        letter-spacing: 2px;
+        font-style: italic;
+
+        box-shadow: 3px 3px black;
+    }
+
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+}
