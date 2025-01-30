@@ -9,14 +9,27 @@ a {
 
 nav {
     list-style-type: none;
-    
+
     display: grid;
     place-items: center;
+    gap: 10px;
 }
+
+li {
+    background-color: rgb(221, 221, 221);
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+    li:hover{
+        background-color: rgb(57, 57, 57);
+        color: white;
+        cursor: pointer;
+    }
 
 .nav-horizontal {
     grid-auto-flow: column;
-    
 }
 
 .nav-vertical {
